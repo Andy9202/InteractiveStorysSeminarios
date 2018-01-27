@@ -34,7 +34,7 @@ public class StoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
 
-        storyImageView = (ImageView)findViewById(R.id.storyImageView);
+        storyImageView = (ImageView)findViewById(R.id.animation_view);
         storyTextView = (TextView)findViewById(R.id.storyTextView);
         choice1Button = (Button)findViewById(R.id.choice1Botton);
         choice2Button = (Button)findViewById(R.id.choice2Button);

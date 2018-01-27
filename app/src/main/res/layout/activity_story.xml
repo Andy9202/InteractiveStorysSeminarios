@@ -53,14 +53,15 @@
             android:orientation="vertical"
             android:weightSum="1">
 
-            <ImageView
-                android:id="@+id/storyImageView"
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:contentDescription="@string/story_image_content_description"
                 android:scaleType="fitXY"
-                tools:src="@drawable/page0" />
+                app:lottie_fileName="animation-w1920-h1080.json"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true" />
 
             <TextView
                 android:id="@+id/storyTextView"
